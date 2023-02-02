@@ -1,9 +1,10 @@
 import Layout from '../components/layout';
+import { Hero } from '../components/sections';
 
 export default function Home() {
   return (
     <Layout>
-      <section className='min-h-screen w-full bg-[url("/images/milad-fakurian-sKjKxIEMJ1Q-unsplash.jpg")] bg-cover bg-center' />
+      <Hero />
     </Layout>
   );
 }
