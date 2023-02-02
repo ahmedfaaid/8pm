@@ -1,11 +1,9 @@
-import { Inter } from '@next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
+import Layout from '../components/layout';
 
 export default function Home() {
   return (
-    <div>
+    <Layout>
       <h1>8 PM</h1>
-    </div>
+    </Layout>
   );
 }
