@@ -13,7 +13,8 @@ module.exports = {
         sans: ['var(--font-inter)']
       },
       colors: {
-        primary: '#1B1F24'
+        primary: '#1B1F24',
+        'smoky-black': '#100C08'
       }
     }
   },
