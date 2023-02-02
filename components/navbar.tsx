@@ -11,22 +11,22 @@ export default function Navbar() {
       <div>
         <ul className='flex list-none text-lg uppercase text-smoky-black'>
           <li>
-            <Link href='/work' className='p-2 hover:text-zinc-800'>
+            <Link href='/work' className='p-2 hover:text-zinc-700'>
               Work
             </Link>
           </li>
           <li>
-            <Link href='/blog' className='p-2 hover:text-zinc-800'>
+            <Link href='/blog' className='p-2 hover:text-zinc-700'>
               Blog
             </Link>
           </li>
           <li>
-            <Link href='/services' className='p-2 hover:text-zinc-800'>
+            <Link href='/services' className='p-2 hover:text-zinc-700'>
               Services
             </Link>
           </li>
           <li>
-            <Link href='/contact' className='p-2 hover:text-zinc-800'>
+            <Link href='/contact' className='p-2 hover:text-zinc-700'>
               Contact
             </Link>
           </li>
