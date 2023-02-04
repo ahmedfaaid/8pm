@@ -1,7 +1,7 @@
 export default function WhatWeDo() {
   return (
     <section className='flex min-h-screen items-center justify-center bg-primary sm:h-screen'>
-      <div className='container py-2 px-4 text-white sm:px-0 md:grid md:grid-cols-3'>
+      <div className='container py-8 px-4 text-white sm:px-0 md:grid md:grid-cols-3'>
         <div className='mb-20 md:mb-0'>
           <p className='text-center text-5xl font-medium md:text-left md:text-6xl'>
             What we do
