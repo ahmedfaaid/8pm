@@ -3,15 +3,18 @@ import { gallery } from '../../lib/gallery';
 
 export default function Gallery() {
   return (
-    <section className='flex h-screen items-center justify-center bg-primary'>
-      <div className='container grid grid-cols-4 grid-rows-2 gap-x-2 gap-y-4'>
+    <section className='flex min-h-screen items-center justify-center bg-primary'>
+      <div className='container grid grid-cols-2 grid-rows-4 gap-x-2 gap-y-4 px-4 sm:px-0 md:grid-cols-4 md:grid-rows-2'>
         {gallery.map((image) => (
-          <div key={image.id} className='relative h-72 overflow-hidden'>
+          <div
+            key={image.id}
+            className='relative h-36 overflow-hidden sm:h-64 md:h-44 lg:h-72'
+          >
             <Image
               src={image.image}
               alt='8PM image gallery'
-              width={300}
-              height={300}
+              width={250}
+              height={250}
               className='object-cover object-center'
             />
           </div>
