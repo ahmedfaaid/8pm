@@ -1,5 +1,6 @@
 import { ReactNode, useEffect, useState } from 'react';
 import Navbar from './navbar';
+import Seo from './seo';
 
 interface LayoutProps {
   children: ReactNode;
@@ -30,6 +31,7 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
     <>
+      <Seo />
       <Navbar />
       <main className='min-h-screen'>{children}</main>
       {showScrollToTop && (
