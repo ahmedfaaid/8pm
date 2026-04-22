@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <section className='relative flex h-screen items-center justify-center bg-[url("/images/manolo-chretien-RpC-9e0ORNM-unsplash.jpg")] bg-cover bg-center bg-blend-darken'>
       <div className='absolute inset-0 bg-primary opacity-60' />
-      <div className='z-10 flex w-72 flex-col items-center justify-center sm:h-44 sm:w-[36rem] sm:flex-row'>
+      <div className='z-10 flex w-72 flex-col items-center justify-center sm:h-44 sm:w-xl sm:flex-row'>
         <div className='flex h-full w-full flex-col justify-center bg-white p-8 text-primary sm:w-1/2'>
           <p className='mb-4 text-3xl font-medium md:text-4xl'>Contact</p>
           <a
